@@ -1,0 +1,121 @@
+/* =========common css ==========*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+/* =========common css ==========*/
+#faq {
+    margin-top: 100px;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#faq h3 {
+	color: #121A26;
+	font-family: "Roboto", Sans-serif;
+	font-size: 34px;
+	font-weight: 400;
+	line-height: 46px;
+	width: 264px;
+	margin: 0 auto;
+   padding-bottom: 25px;
+}
+#faq .accordion button{
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;  
+    border: 0px solid rgba(0,0,0,.125);
+    padding: 28px 30px 27px 30px;
+    border-bottom: 1px solid #e0dddd;
+}
+#faq .accordion-header{
+    width: 100%;
+}
+.accordion-item {
+	background-color: #fff;
+}
+#faq p{
+    color: #7C8187;
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+#faq h6{
+    text-align: left;
+    color: #7C8187;
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#faq .accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: transparent;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+#faq .accordion-button:focus {
+	z-index: 3;
+	border-color: none;
+	outline: 0;
+	box-shadow: 0 0 0 .25rem rgba(0, 0, 0, 0);
+}
+
+#faq .accordion-button::after {
+    background-image: none;
+}
+#faq .accordion-button .aro {
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translateY(-50%);
+    color: #7A7A7A;
+    opacity: 1;
+}
+#faq .accordion-button .cls{
+    opacity: 0;
+}
+#faq .accordion-button:not(.collapsed) {
+    background-image: none;
+}
+#faq .accordion-button:not(.collapsed) .cls{
+    opacity: 1;
+    position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translateY(-50%);
+    color: #7A7A7A;;
+}
+#faq .accordion-button:not(.collapsed) .aro{
+    opacity: 0;
+}
+
+
+
