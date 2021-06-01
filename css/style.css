@@ -27,7 +27,7 @@ p {
 }
 /* =========common css ==========*/
 #faq {
-    margin-top: 100px;
+   margin-top: 100px !important;
     text-align: center;
     width: 500px;
     margin: 0 auto;
@@ -55,9 +55,7 @@ p {
 #faq .accordion-header{
     width: 100%;
 }
-.accordion-item {
-	background-color: #fff;
-}
+
 #faq p{
     color: #7C8187;
     font-family: "Roboto", Sans-serif;
